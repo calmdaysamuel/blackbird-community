@@ -1,0 +1,7 @@
+.App {
+}
+
+.app-body {
+  @apply dark:bg-dark-background-primary dark:text-dark-text-default;
+  @apply bg-light-background-primary text-light-text-default;
+}

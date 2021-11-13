@@ -1,0 +1,49 @@
+.channel-selector {
+  margin-top: 24px;
+  //@apply dark:bg-dark-background-secondary dark:border-dark-border-primary;
+  //@apply bg-light-background-secondary border-light-border-primary;
+}
+.title {
+  font-size: 16px;
+  padding: 8px;
+  font-weight: 600;
+}
+.channels {
+  //@apply dark:bg-dark-background-secondary;
+  //@apply bg-light-background-secondary;
+}
+.channel-image {
+  max-width: 36px;
+  max-height: 36px;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+.channel-name {
+  font-size: 14px;
+}
+.count {
+  font-size: 12px;
+
+  @apply text-light-text-secondary;
+  @apply dark:text-dark-text-secondary;
+}
+.channel {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px;
+  font-size: 14px;
+
+  &:hover {
+    cursor: pointer;
+
+    @apply dark:bg-dark-highlight-primary;
+    @apply bg-light-highlight-primary;
+  }
+}
+
+.active {
+  @apply dark:bg-dark-highlight-primary;
+  @apply bg-light-highlight-primary;
+}

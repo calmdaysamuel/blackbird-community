@@ -1,0 +1,37 @@
+.post-card {
+  border-top: 1px solid;
+  padding: 18px 0px 18px;
+  @apply dark:text-dark-text-default dark:border-dark-border-primary;
+  @apply text-light-text-default border-light-border-primary;
+}
+.pavatar {
+  height: 40px;
+  width: 40px;
+}
+.post-heading {
+  display: flex;
+  gap: 12px;
+  padding: 0px 0px 10px;
+}
+.username {
+  font-size: 12px;
+}
+.post-title {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+
+.post-description {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.actions {
+  padding: 24px 0px 0px;
+  display: flex;
+}
+
+.tdisplay-name {
+  font-size: 14px;
+}

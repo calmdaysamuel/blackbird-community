@@ -1,0 +1,113 @@
+.about-user-column {
+  height: 100vh;
+  position: sticky;
+  overflow: auto;
+  top: 0px;
+  width: 350px;
+  @apply dark:bg-dark-background-primary dark:text-dark-text-default;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.content {
+  padding: 24px;
+}
+
+.user-info {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 12px;
+}
+.display-name {
+  font-size: 18px;
+}
+.user-name {
+  font-size: 14px;
+}
+
+.user-image {
+  max-width: 60px;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.about-user {
+  padding-top: 12px;
+  font-size: 15px;
+}
+.counts {
+  display: flex;
+  gap: 16px;
+
+  padding-top: 16px;
+}
+.member-count {
+  font-size: 14px;
+
+  @apply dark:text-dark-text-default;
+  @apply text-light-text-default;
+}
+
+.social-links {
+  padding: 24px;
+  display: flex;
+  gap: 12px;
+
+  .icon {
+    width: 24px;
+    height: 24px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.btns {
+  padding-top: 12px;
+  display: flex;
+  gap: 12px;
+  .follow {
+    width: 80px;
+    background-color: #0077b6;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 28px;
+    font-size: 14px;
+  }
+}
+
+.manager {
+  padding: 24px;
+
+  .ava {
+    max-width: 52px;
+    max-height: 52px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+  .mnger {
+    display: flex;
+    padding-top: 12px;
+    gap: 12px;
+    justify-content: start;
+  }
+
+  .uname {
+    font-size: 14px;
+  }
+}
+
+.communities {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.u-title {
+  padding: 20px 0px 20px 0px;
+  font-weight: 600;
+}

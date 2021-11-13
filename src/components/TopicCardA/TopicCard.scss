@@ -1,0 +1,14 @@
+.topic {
+  display: flex;
+  justify-content: space-between;
+}
+.follow-button {
+  padding: 6px 12px;
+  border: 1px solid;
+  border-radius: 18px;
+  @apply dark:border-dark-border-primary border-light-border-primary;
+  align-items: center;
+  &:hover {
+    cursor: pointer;
+  }
+}

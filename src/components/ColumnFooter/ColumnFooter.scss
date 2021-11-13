@@ -1,0 +1,22 @@
+.footer {
+  position: sticky;
+  bottom: 0px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  min-height: 52px;
+  @apply dark:bg-dark-background-primary dark:border-dark-border-primary dark:text-dark-text-secondary;
+  @apply bg-light-background-primary border-light-border-primary text-light-text-secondary;
+
+  display: flex;
+
+  gap: 10px;
+  font-size: 10px;
+  padding: 0px 18px;
+  align-items: center;
+
+  .link {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

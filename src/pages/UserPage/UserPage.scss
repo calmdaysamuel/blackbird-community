@@ -1,0 +1,6 @@
+.user-page {
+  display: grid;
+  grid-template-columns: min-content 1fr min-content;
+  max-width: 1400px;
+  margin: auto;
+}

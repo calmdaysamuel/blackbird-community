@@ -1,0 +1,21 @@
+.tab-switcher {
+  display: flex;
+  gap: 24px;
+  margin: 48px 48px 0px 48px;
+  padding-bottom: 18px;
+}
+
+.option {
+  @apply dark:text-dark-text-secondary;
+  @apply text-light-text-secondary;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.active,
+.option:hover {
+  @apply dark:text-dark-text-default;
+  @apply text-light-text-default;
+}

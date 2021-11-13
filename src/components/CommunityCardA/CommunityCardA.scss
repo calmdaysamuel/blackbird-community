@@ -1,0 +1,39 @@
+.community-info {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+.cdisplay-name {
+  font-size: 16px;
+}
+.community-name {
+  font-size: 12px;
+
+  @apply text-light-text-secondary dark:text-dark-text-secondary;
+}
+
+.community-image {
+  max-width: 42px;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.community-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.follow-button {
+  padding: 6px 12px;
+  border: 1px solid;
+  border-radius: 18px;
+  align-items: center;
+  @apply dark:border-dark-border-primary border-light-border-primary;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,14 @@
+.tag {
+  padding: 4px 8px;
+  border-radius: 16px;
+  font-size: 14px;
+  border: 2px solid;
+  @apply dark:bg-dark-background-primary dark:border-dark-border-primary;
+  @apply bg-light-border-primary border-light-border-primary;
+
+  &:hover {
+    @apply dark:bg-dark-background-secondary;
+    @apply bg-light-background-secondary;
+    cursor: pointer;
+  }
+}

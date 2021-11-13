@@ -1,0 +1,13 @@
+.community-page-content {
+  border-right: 1px solid;
+
+  @apply dark:bg-dark-background-secondary dark:text-dark-text-default dark:border-dark-border-primary;
+  @apply bg-light-background-secondary text-light-text-default border-light-border-primary;
+}
+
+.posts {
+  display: flex;
+  padding: 48px;
+  padding-top: 0px;
+  flex-direction: column;
+}

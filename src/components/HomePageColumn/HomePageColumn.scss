@@ -1,0 +1,20 @@
+.home-page-column {
+  position: sticky;
+  top: 0px;
+  width: 350px;
+  height: 100vh;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.recommended {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 12px 24px 36px 24px;
+}
+p.title {
+  padding: 0px 24px;
+}

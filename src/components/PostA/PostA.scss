@@ -1,0 +1,22 @@
+.post {
+  border-right: 1px solid;
+
+  @apply dark:bg-dark-background-secondary dark:border-dark-border-primary;
+  @apply bg-light-background-secondary border-light-border-primary;
+}
+.post-section {
+  padding: 48px;
+}
+
+.post-action {
+  display: flex;
+  align-items: center;
+  padding: 0px 24px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  min-height: 52px;
+  @apply dark:border-dark-border-primary dark:bg-dark-background-secondary;
+  @apply border-light-border-primary bg-light-background-secondary;
+  position: sticky;
+  bottom: 0px;
+}

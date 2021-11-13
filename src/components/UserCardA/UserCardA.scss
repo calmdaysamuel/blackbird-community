@@ -1,0 +1,40 @@
+.user-info {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+.udisplay-name {
+  font-size: 16px;
+}
+.user-name {
+  font-size: 12px;
+
+  @apply text-light-text-secondary dark:text-dark-text-secondary;
+}
+
+.iuser-image {
+  max-width: 42px;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.follow-button {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  border: 1px solid;
+  border-radius: 18px;
+  @apply dark:border-dark-border-primary border-light-border-primary;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

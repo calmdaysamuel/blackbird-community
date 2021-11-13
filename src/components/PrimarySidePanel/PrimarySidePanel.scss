@@ -1,0 +1,14 @@
+.primary-side-panel {
+  max-width: 250px;
+  min-width: 80px;
+  height: 100vh;
+  position: sticky;
+  top: 0px;
+  border-right: 1px solid;
+  @apply dark:bg-dark-background-primary dark:border-dark-border-primary;
+  @apply bg-light-background-primary border-light-border-primary;
+
+  .menu-option {
+    @apply dark:text-dark-text-default;
+  }
+}
